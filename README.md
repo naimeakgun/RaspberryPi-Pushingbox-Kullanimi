@@ -85,6 +85,6 @@ Raspberry Pi üzerinde Node.js ve SQLite kullanılarak Pushingbox API üzerinden
 	pi@raspberrypi:~ $ sudo nano /etc/crontab
 ```
 ```bash
-	25 18   * * *    pi      /home/pi/push.sh
+	* 12   * * *    pi      /home/pi/push.sh
 ```	
 
