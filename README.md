@@ -41,7 +41,7 @@ Raspberry Pi üzerinde Node.js ve SQLite kullanılarak Pushingbox API üzerinden
 ```javascript
 	var sqlite3 = require('sqlite3').verbose();
 	const http = require('http');
-	var file = 'new.db';
+	var file = 'data.db';
 	var db = new sqlite3.Database(file);
 	db.all("SELECT * FROM Persons", function(err, rows){
 	        let ts = Date.now();
